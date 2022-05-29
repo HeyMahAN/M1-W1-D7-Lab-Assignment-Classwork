@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Output</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .content{
+            display: flex;
+            border: 8px solid white;
+            height: 100vh;
+        }
+        .one, .two, .three, .four, .five, .six{
+            background-color: rgba(103, 175, 1, 0.909);
+            width: 16.5%;
+        }
+        .one, .two, .three, .four, .five{
+            border-right: 8px solid white;
+        }
+        .two, .three, .four, .five, .six{
+            display: flex;
+            flex-direction: column;
+        }
+        .two-1{
+            height: 49.5vh;
+        }
+        .three-1{
+            height: 32.66vh;
+        }
+        .four-1{
+            height: 24.25vh;
+        }
+        .five-1{
+            height: 15.83vh;
+        }
+        .six-1{
+            height: 7.25vh;
+        }
+        .border{
+            border-bottom: 8px solid white;
+        }
+        p{
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="one"><p>1</p></div>
+        <div class="two">
+            <div class="two-1 border">
+                <p>2</p>
+            </div>
+            <div class="two-1">
+                <p>3</p>
+            </div>
+        </div>
+        <div class="three">
+            <div class="three-1 border"><p>4</p></div>
+            <div class="three-1 border"><p>5</p></div>
+            <div class="three-1"><p>6</p></div>
+        </div>
+        <div class="four">
+            <div class="four-1 border"><p>7</p></div>
+            <div class="four-1 border"><p>8</p></div>
+            <div class="four-1 border"><p>9</p></div>
+            <div class="four-1"><p>10</p></div>
+        </div>
+        <div class="five">
+            <div class="five-1 border"><p>11</p></div>
+            <div class="five-1 border"><p>12</p></div>
+            <div class="five-1 border"><p>13</p></div>
+            <div class="five-1 border"><p>14</p></div>
+            <div class="five-1 border"><p>15</p></div>
+            <div class="five-1"><p>16</p></div>
+        </div>
+        <div class="six">
+            <div class="six-1 border"><p>17</p></div>
+            <div class="six-1 border"><p>18</p></div>
+            <div class="six-1 border"><p>19</p></div>
+            <div class="six-1 border"><p>20</p></div>
+            <div class="six-1 border"><p>21</p></div>
+            <div class="six-1 border"><p>22</p></div>
+            <div class="six-1 border"><p>23</p></div>
+            <div class="six-1 border"><p>24</p></div>
+            <div class="six-1 border"><p>25</p></div>
+            <div class="six-1 border"><p>26</p></div>
+            <div class="six-1 border"><p>27</p></div>
+            <div class="six-1"><p>28</p></div>
+        </div>
+    </div>
+</body>
+</html>
